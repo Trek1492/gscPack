@@ -11,7 +11,7 @@ setuptools.setup(
     description="This package assists in the creation and manipulation of gsc (Gravestroke Seperated Coloumns) files.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="none",
+    url="https://github.com/Trek1492/gscPack",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
