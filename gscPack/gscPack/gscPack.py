@@ -14,7 +14,7 @@ class gscFile(object):
             self.text = file.read()
 
         self.text = self.text.split("\n")
-        self.lbl = label.lbl(self.text[0])
+        self.lbl = lbl(self.text[0])
 
         self.__row = []
         self.row = []
